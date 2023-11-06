@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, blue, black);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+h1 {
+    font: 30px Arial;
+    color: #fafbfc;
+    text-align: start;
+    margin-left: 170px;
+    margin-top: 150px;
+    margin-right: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 15px;
+    margin-left: 150px;
+}
+
+.content-cards2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 15px;
+    margin-left: 164px;
+}
+
+.img {
+    width: 10vw;
+}
+
+.img:hover{
+    box-shadow: 5px 5px 5px rgba(219, 224, 228, 0.623)
+}
+
+.info {
+    color: #fafbfc;
+}
+
+#imagensSelecionadas {
+    width: 27vw;
+    margin-left: 130px;
+   
+}
+
+#NomePersona {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 130px;
+}
+
+#TextoSelecionado {
+    width: 30vw;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 998px){
+    body{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+    font: 20px Arial;
+    color: #fafbfc;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-right: 0;
+    font-family: 'Prompt', sans-serif;
+    }
+
+    .content-cards {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .content-cards2 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .img {
+        width: 18vw;
+    }
+    
+    .img:hover{
+        box-shadow: 5px 5px 5px rgba(219, 224, 228, 0.623)
+    }
+
+    #imagensSelecionadas {
+        width: 70vw;
+        margin-left: 50px;
+    }
+
+    #NomePersona {
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    #TextoSelecionado {
+        width: 80vw;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+        margin-left: 40px;
+    }
+}
